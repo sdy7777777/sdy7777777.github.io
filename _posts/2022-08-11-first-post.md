@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "My First post"
 subtitle: "My First post-subtitle"
 date: 2022-08-11 05:39:00 +0900
