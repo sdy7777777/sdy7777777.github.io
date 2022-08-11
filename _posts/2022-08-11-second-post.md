@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: single
 title: "My Second post"
 subtitle: "My Second post-subtitle"
 date: 2022-08-11 19:13:00 +0900
