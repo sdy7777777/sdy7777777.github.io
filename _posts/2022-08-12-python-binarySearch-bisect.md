@@ -10,11 +10,12 @@ categories: python
 #  - test
 ---
 
-Python에서는 Binary Serch시 bisect 모듈을 사용 할 수 있다.
+Python에서는 Binary Serch시 bisect 모듈을 사용 할 수 있다.  
 Binary Search 필수 조건인 정렬 된 리스트가 존재 할 경우 사용 가능하다.
 
-직접 binary search 를 구현하는 방법도 있지만, python 모듈을 통해 제공되는 특성상 좀 더 빠른 속도를 제공한다.
-
+직접 binary search 를 구현하는 방법도 있지만  
+python 모듈을 통해 제공되는 특성상 좀 더 빠른 속도를 제공한다.  
+  
 한데... 매번 헷갈린다.;;;;;;
 
 ## Binary Search 기본 포멧
