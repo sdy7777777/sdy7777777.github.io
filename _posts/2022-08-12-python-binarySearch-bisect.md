@@ -51,6 +51,9 @@ def Solve_Bisect():
   - x를 삽입 가능한 가장 오른쪽 index를 반환한다.
   - 리스트에 찾는 값이 존재할때, 반환된 index는 해당 값이 들어 있지 않다.  (찾는 값의 오른쪽`index+1` index를 반환한다.)
 
+
+## bisect_left / bisect_right 탐색 참고
+
 *a_list = [1,3,3,3,5]*
 *len(a_list) -> 5*
 
