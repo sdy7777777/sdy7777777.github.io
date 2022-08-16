@@ -1,3 +1,18 @@
+---
+layout: single
+title: "[kubernetes] Lens 서비스 유료화(2023-01-02부터)"
+#subtitle: ""
+date: 2022-08-16 21:45:00 +0900
+lastmod: 2022-08-16 21:45:00 +0900 # sitemap.xml 에서 사용 됨. 
+
+categories: kubernetes
+tags:
+  - kubernetes
+  - lens
+  - OpenLens
+#  - test
+---
+
 2023년 1월 2일 부터  Kubenetes 클러스터 모니터링을 관리 용으로 많이 사용하는 Lens (기존. opensource)가 유료화 된다고 한다.
 
 2022년 8월 현재 기준 아직 여유는 있으나..  
