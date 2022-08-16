@@ -3,7 +3,7 @@ layout: single
 title: "[kubernetes] Lens 서비스 유료화(2023-01-02부터)"
 #subtitle: ""
 date: 2022-08-16 21:45:00 +0900
-lastmod: 2022-08-16 21:45:00 +0900 # sitemap.xml 에서 사용 됨. 
+last_modified_at: 2022-08-16 21:45:00 +0900 # sitemap.xml 에서 사용 됨. 
 
 categories: kubernetes
 tags:
