@@ -38,11 +38,11 @@ testw02   Ready    <none>                 19d   v1.22.8
 $ kubectl -n kube-system get pod -o wide
 
 NAME                                              READY   STATUS      RESTARTS       AGE    IP                NODE          NOMINATED NODE   READINESS GATES
-calico-kube-controllers-9f99675b4-c2f5h           1/1     Running     0              20d    11.111.60.28      tests02p   <none>           <none>
-calico-node-22vr5                                 1/1     Running     1 (10d ago)    10d    11.111.60.45      testw13   <none>           <none>
-calico-node-272sx                                 1/1     Running     1 (10d ago)    10d    11.111.60.34      testw02   <none>           <none>
-calico-node-4gzkn                                 1/1     Running     2 (3d7h ago)   3d7h   11.111.60.71      testw39   <none>           <none>
-calico-node-5bcwg                                 1/1     Running     2 (10d ago)    10d    11.111.60.54      testw22   <none>           <none>
+calico-kube-controllers-9f99675b4-c2f5h           1/1     Running     0              20d    xx.xxx.xx.28      tests02   <none>           <none>
+calico-node-22vr5                                 1/1     Running     1 (10d ago)    10d    xx.xxx.xx.45      testw13   <none>           <none>
+calico-node-272sx                                 1/1     Running     1 (10d ago)    10d    xx.xxx.xx.34      testw02   <none>           <none>
+calico-node-4gzkn                                 1/1     Running     2 (3d7h ago)   3d7h   xx.xxx.xx.71      testw39   <none>           <none>
+calico-node-5bcwg                                 1/1     Running     2 (10d ago)    10d    xx.xxx.xx.54      testw22   <none>           <none>
 calico-node-5sx8z                                 1/1     Running     2 (10d ago)    
 ...
 ```
@@ -74,9 +74,9 @@ calico-node-5sx8z                                 1/1     Running     2 (10d ago
   ---
 
   > *Kubernetes Static Pod*  
-  > node의 kubelet 데몬에 의해 관리되는 pod.  
-  > Static Pod 관련 yaml 은 역시 node 별 `/etc/kubernetes/manifests/` 경로에 존재 한다.  
-  > eg. etcd, api-server 
+  > - node의 kubelet 데몬에 의해 관리되는 pod.  
+  > - Static Pod 관련 yaml 은 node 별 `/etc/kubernetes/manifests/` 경로에 존재 한다.  
+  > - eg. etcd, api-server ...
   ---
 
 ### 3. events 확인
@@ -148,7 +148,7 @@ $ iscsiadm -m node
 
 $ multipath -l
 ```
-** mtu 값: 보통 storage 의 경우 9000 / 그 외는 1500 으로 설정이 되어 있다.
+- mtu 값: 보통 storage 의 경우 9000 / 그 외는 1500 으로 설정이 되어 있다.
 
 
 
