@@ -69,8 +69,9 @@ calico-node-5sx8z                                 1/1     Running     2 (10d ago
 - 이슈가 식별되는 pod가 Static pod 인지를 확인하자.  
   - Static pod의 경우 `/etc/kubernetes/manifests/` 하위에 yaml 파일들이 존재한다.
   - kubenetes가 해당 경로의 yaml 파일들을 주기적으로 확인/적용하고 있다.
-  - 따라서 `/etc/kubernetes/manifests/` 하위 경로의 yaml 파일을 수정할 경우 별도로 apply 가 필요 없이 자동 반영 되며 
-  - 특정 pod의 yaml 파일을 `/etc/kubernetes/manifests/` 에서 이동 시키면 해당 system pod가 종료 된다.   
+  - 따라서 `/etc/kubernetes/manifests/` 하위 경로의 yaml 파일을 수정할 경우  
+    별도로 apply 가 필요 없이 *자동 반영* 되며 특정 pod의 yaml 파일을  
+    `/etc/kubernetes/manifests/` 에서 이동 시키면 해당 pod가 종료 된다.
   
 
   > *Kubernetes Static Pod*  
