@@ -106,7 +106,8 @@ analytics:
 author:
   name             : "Sweet potatoes with milk"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome to my space." # "I am an **amazing** person."
+  bio              : "I am a Devops engineer who is more interested in the world outside the system. :)"
+  #bio              : "Welcome to my space." # "I am an **amazing** person."
   location         : "South Korea"
   email            : "sdy7777777@gmail.com"
   links:
