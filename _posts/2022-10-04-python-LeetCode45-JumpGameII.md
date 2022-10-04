@@ -16,7 +16,7 @@ tags:
 
 [leetcode(리트코드)45-Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
-|-|-|-|-|-|-|
+|-|idx 0|idx 1|idx 2|idx 3|idx 4|
 |---|---|---|---|---|---|
 |nums|2|3|1|1|4|
 |cntlist|0|float('inf')|float('inf')|float('inf')|float('inf')|
@@ -34,7 +34,7 @@ tags:
 | | | | |cur|nums[cur+1]| |
 |cur = 2|nums[cur]->1|0|2|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|2|
 | | | | | |cur|nums[cur+1]|
-|cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</span>|2|
+|cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|
 | | | | | | |cur|
 |cur = 4|nums[cur]->4|0|2|2|2|<span style="color:red">2</span>|
 
