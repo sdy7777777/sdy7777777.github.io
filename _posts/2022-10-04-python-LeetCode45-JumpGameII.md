@@ -32,7 +32,7 @@ tags:
 | | | |cur|nums[cur+1]|nums[cur+2]|nums[cur+3]|
 |cur = 1|nums[cur]->3|0|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|
 | | | | |cur|nums[cur+1]| |
-|cur = 2|nums[cur]->1|0|2|<span style="color:red">2</span>|2|<span style="background-color:#fff5b1">2</span>|
+|cur = 2|nums[cur]->1|0|2|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|2|
 | | | | | |cur|nums[cur+1]|
 |cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</span>|2|
 | | | | | | |cur|
