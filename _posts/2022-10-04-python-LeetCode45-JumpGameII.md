@@ -28,7 +28,7 @@ tags:
 |-|-|-|-|-|-|-|
 |---|---|---|---|---|---|---|
 | | |cur|nums[cur+1]|nums[cur+2]| | |
-|cur = 0|nums[cur]->2|<span style="color:red">0</sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|inf|inf|
+|cur = 0|nums[cur]->2|<span style="color:red"> 0 </sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|inf|inf|
 | | | |cur|nums[cur+1]|nums[cur+2]|nums[cur+3]|
 |cur = 1|nums[cur]->3|0|<span style="color:red">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|
 | | | | |cur|nums[cur+1]| |
