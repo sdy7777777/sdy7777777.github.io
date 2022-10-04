@@ -28,15 +28,15 @@ tags:
 |-|-|-|-|-|-|-|
 |---|---|---|---|---|---|---|
 | | |cur|nums[cur+1]|nums[cur+2]| | |
-|cur = 0|nums[cur]->2|<span style="color:red"> 0 </sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|inf|inf|
+|cur = 0|nums[cur]->2|<span style="color:red">0</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|inf|inf|
 | | | |cur|nums[cur+1]|nums[cur+2]|nums[cur+3]|
-|cur = 1|nums[cur]->3|0|<span style="color:red">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|<span style="background-color:#fff5b1">2</sapn>|
+|cur = 1|nums[cur]->3|0|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|
 | | | | |cur|nums[cur+1]| |
-|cur = 2|nums[cur]->1|0|2|<span style="color:red">2</sapn>|2|<span style="background-color:#fff5b1">2</sapn>|
+|cur = 2|nums[cur]->1|0|2|<span style="color:red">2</span>|2|<span style="background-color:#fff5b1">2</span>|
 | | | | | |cur|nums[cur+1]|
-|cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</sapn>|2|
+|cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</span>|2|
 | | | | | | |cur|
-|cur = 4|nums[cur]->4|0|2|2|2|<span style="color:red">2</sapn>|
+|cur = 4|nums[cur]->4|0|2|2|2|<span style="color:red">2</span>|
 
 최종 결과 Return
 ```python
