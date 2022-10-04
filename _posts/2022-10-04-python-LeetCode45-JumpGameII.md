@@ -5,9 +5,9 @@ title: "[Python] leetcode(리트코드)45-Jump Game II"
 date: 2022-10-04 14:00:00 +0900
 last_modified_at: 2022-10-04 14:15:00 +0900 # sitemap.xml 에서 사용 됨. 
 
-categories: Python
+categories: python 
 tags:
-  - Python 
+  - python 
   - leetcode
 #  - test
 ---
@@ -21,12 +21,14 @@ tags:
 |nums|2|3|1|1|4|
 |cntlist|0|float('inf')|float('inf')|float('inf')|float('inf')|
 
-최소 jump 수를 구하기 위한 문제이므로 cntlist에는 최대 값인 inf (양의 무한대) 로 초기화 해 준다.  
+> **cntlist**  
+> - 최소 jump 카운트를 저장하는 리스트
+> - 최소 jump 수를 구하기 위한 문제이므로 cntlist에는 최대 값인 inf (양의 무한대) 로 초기화 해 준다.  
 
 
 ---
   
-아래 Table은 cur index의 변화에 따른 cntlist(최소 점프 카운트) 의 값 변화를 보여 준다.
+아래 Table은 cur index의 변화에 따른 cntlist(최소 jump 카운트)의 값 변화를 보여 준다.
 
 |-|-|idx 0|idx 1|idx 2|idx 3|idx 4|
 |---|---|---|---|---|---|---|
