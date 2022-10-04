@@ -21,22 +21,28 @@ tags:
 |nums|2|3|1|1|4|
 |cntlist|0|float('inf')|float('inf')|float('inf')|float('inf')|
 
-최소 jump 수를 구하기 위한 문제이므로 cntlist에는 최대 값인 inf 로 초기화 해 준다.
+최소 jump 수를 구하기 위한 문제이므로 cntlist에는 최대 값인 inf (양의 무한대) 로 초기화 해 준다.  
+
 
 ---
+  
+아래 Table은 cur index의 변화에 따른 cntlist(최소 점프 카운트) 의 값 변화를 보여 준다.
 
-|-|-|-|-|-|-|-|
+|-|-|idx 0|idx 1|idx 2|idx 3|idx 4|
 |---|---|---|---|---|---|---|
-| | |cur|nums[cur+1]|nums[cur+2]| | |
-|cur = 0|nums[cur]->2|<span style="color:red">0</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|inf|inf|
-| | | |cur|nums[cur+1]|nums[cur+2]|nums[cur+3]|
-|cur = 1|nums[cur]->3|0|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|
-| | | | |cur|nums[cur+1]| |
-|cur = 2|nums[cur]->1|0|2|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|2|
-| | | | | |cur|nums[cur+1]|
-|cur = 3|nums[cur]->1|0|2|2|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|
+|---|nums|2|3|1|1|4|
+|---|cntlist|0|float('inf')|float('inf')|float('inf')|float('inf')|
+| **cntlist의 값 변화** |---|---|---|---|---|---|
+| | |cur|cntlist[cur+1]|cntlist[cur+2]| | |
+|cur = 0|nums[cur]->2|<span style="color:red">0</span>|<span style="background-color:#fff5b1">1</span>|<span style="background-color:#fff5b1">1</span>|inf|inf|
+| | | |cur|cntlist[cur+1]|cntlist[cur+2]|cntlist[cur+3]|
+|cur = 1|nums[cur]->3|0|<span style="color:red">1</span>|<span style="background-color:#fff5b1">1</span>|<span style="background-color:#fff5b1">2</span>|<span style="background-color:#fff5b1">2</span>|
+| | | | |cur|cntlist[cur+1]| |
+|cur = 2|nums[cur]->1|0|1|<span style="color:red">1</span>|<span style="background-color:#fff5b1">2</span>|2|
+| | | | | |cur|cntlist[cur+1]|
+|cur = 3|nums[cur]->1|0|1|1|<span style="color:red">2</span>|<span style="background-color:#fff5b1">2</span>|
 | | | | | | |cur|
-|cur = 4|nums[cur]->4|0|2|2|2|<span style="color:red">2</span>|
+|cur = 4|nums[cur]->4|0|1|1|2|<span style="color:red">2</span>|
 
 최종 결과 Return
 ```python
