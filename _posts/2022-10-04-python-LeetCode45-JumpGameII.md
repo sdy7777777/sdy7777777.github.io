@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Python] leetcode(리트코드)45-Jump Game II"
+title: "[Python] leetcode 45-Jump Game II"
 #subtitle: ""
 date: 2022-10-04 14:00:00 +0900
 last_modified_at: 2022-10-04 14:15:00 +0900 # sitemap.xml 에서 사용 됨. 
@@ -12,9 +12,11 @@ tags:
 #  - test
 ---
 
-# leetcode(리트코드)45-Jump Game II
+## leetcode 45 - Jump Game II
 
 [leetcode(리트코드)45-Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+
+---  
 
 |-|idx 0|idx 1|idx 2|idx 3|idx 4|
 |---|---|---|---|---|---|
