@@ -78,7 +78,7 @@ class Solution:
 
 
 ## Approach 2 - DP(Success)
-https://www.dalecoding.com/problems/decode-ways
+- Reference: https://www.dalecoding.com/problems/decode-ways
 
 **Basic Structure**
 ![image](https://assets.leetcode.com/users/images/17dbe29e-4b16-4c8e-9ef9-62e62b91ead5_1665919470.278059.png)
