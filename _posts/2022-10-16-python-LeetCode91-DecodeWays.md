@@ -81,10 +81,10 @@ class Solution:
 - Reference: https://www.dalecoding.com/problems/decode-ways
 
 **Basic Structure**
-![image](https://assets.leetcode.com/users/images/17dbe29e-4b16-4c8e-9ef9-62e62b91ead5_1665919470.278059.png)
+![image](https://assets.leetcode.com/users/images/17dbe29e-4b16-4c8e-9ef9-62e62b91ead5_1665919470.278059.png)  
 ![image](https://assets.leetcode.com/users/images/c6050130-469b-4a35-88f3-e5459fb4fe7b_1665919489.426692.png)
-
-
+  
+  
 ## Approach 2 - 풀이(Success)
 
 ```python
