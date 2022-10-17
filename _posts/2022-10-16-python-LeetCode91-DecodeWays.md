@@ -20,8 +20,8 @@ tags:
 
 ## Approch 1 - DFS(Timeout)
 
-![image](https://assets.leetcode.com/users/images/79bad860-3bf9-43ed-b950-cc0b02bb2754_1665915141.5535564.png)
-
+![image](https://assets.leetcode.com/users/images/79bad860-3bf9-43ed-b950-cc0b02bb2754_1665915141.5535564.png)  
+  
 **Basic Structure**
 ```pythpn
 string s.
@@ -78,9 +78,9 @@ class Solution:
 
 
 ## Approach 2 - DP(Success)
-- Reference: https://www.dalecoding.com/problems/decode-ways
+- Reference: https://www.dalecoding.com/problems/decode-ways  
 
-**Basic Structure**
+**Basic Structure**  
 ![image](https://assets.leetcode.com/users/images/17dbe29e-4b16-4c8e-9ef9-62e62b91ead5_1665919470.278059.png)  
 ![image](https://assets.leetcode.com/users/images/c6050130-469b-4a35-88f3-e5459fb4fe7b_1665919489.426692.png)
   
