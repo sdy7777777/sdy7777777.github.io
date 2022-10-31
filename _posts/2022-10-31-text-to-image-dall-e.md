@@ -7,7 +7,9 @@ last_modified_at: 2022-10-31 17:30:00 +0900 # sitemap.xml 에서 사용 됨.
 
 categories: 인공지능
 tags:
-  - DALL-E-2, "Deep learning", 인공지능
+  - DALL-E-2
+  - Deep learning
+  - 인공지능
 #  - test
 ---
 
