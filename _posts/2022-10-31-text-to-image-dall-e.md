@@ -55,8 +55,8 @@ Open AI의 DALL-E 페이지에서 체험 가능하다.
 ![output](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output.png)  
 
 아래 두 이미지는 맘에(?) 든다 ㅋㅎㅎㅎㅎㅎ  
-<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="200" height="400"/>  
-<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="200" height="400"/>  
+<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="50%" height="50%"/>  
+<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="50%" height="50%"/>  
 <!--
 ![output1](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png){: width="50%" height="50%"}  
 ![output2](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output2.png){: width="50%" height="50%"}   
@@ -73,7 +73,7 @@ DALL-E 와 같은 최근에 거대한 데이터셋을 이용한 인공지능들�
 인공지능에게 자연어로 명령어하고 결과값을 받는 형식이 많이 도입되고 있다.  
 이에 따라 
 - 인공지능이 자연어 명령의 의도를 더 잘 이해하고
-- 우리가 원하는 결과를 더 잘 도출 할 수 있는도록 하기 위한
-**프롬프트 엔지니어링(Prompt Engineering)** 영역에 대한 관심이 높아지고 있다고 한다.  
+- 우리가 원하는 결과를 더 잘 도출 할 수 있는도록 하기 위한  
+**프롬프트 엔지니어링(Prompt Engineering)** 영역에 대한 관심도 높아지고 있다고..
 
 
