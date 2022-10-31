@@ -56,11 +56,9 @@ Open AI의 DALL-E 페이지에서 체험 가능하다.
 결과>  
 ![output](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output.png)  
 
-아래 두 이미지는 맘에(?) 든다 ㅋㅎㅎㅎㅎㅎ  
-<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="50%" height="50%"/>  
------------------------------------------
-<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output2.png" width="50%" height="50%"/>  
 <!--
+<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png" width="50%" height="50%"/>  
+<img src="/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output2.png" width="50%" height="50%"/>  
 ![output1](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output1.png){: width="50%" height="50%"}  
 ![output2](/assets/img/post/2022-10-31-text-to-image-dall-e/dall-e-2-output2.png){: width="50%" height="50%"}   
 -->
