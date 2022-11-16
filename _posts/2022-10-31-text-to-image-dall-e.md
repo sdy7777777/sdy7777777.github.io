@@ -22,7 +22,7 @@ tags:
 
 ## DALL-E ??
 - DALL-E는 Open AI에서 공개한 AI 모델로  
-  자연어처리와 컴퓨터 비전을 결합하여 텍스트에서 이미지를 생성할 수 있다.
+  자연어처리와 컴퓨터 비전을 결합하여 텍스트에서 이미지를 생성할 수 있다.  
 - 초현실주의 미술가 살바도르 달리(Salvador Dalí) + 픽사 애니메이션의 로봇 캐릭터 WALL-E의 이름을 합쳐서 지은 것 이라고 한다.
   ![SalvadorDali-walle](/assets/img/post/2022-10-31-text-to-image-dall-e/SalvadorDali-walle.png)  
 - 주어진 텍스트로 이미지를 만들수 있다니 정말 재미있지 않나??
